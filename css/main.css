@@ -1,0 +1,132 @@
+.Dance .nawbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #FBF7F3;
+}
+.Dance .nawbar h1{
+    margin-left: 40px;
+}
+.Dance .nawbar .home{
+    width: 600px;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color: white;
+}
+.Dance .nawbar .home a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.nawbar .home button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: #7140EB;
+    border-radius: 40px;
+}
+.subscribe{
+    height: 300px;
+    background-image: url(../rasm/Rectangle.png);
+    text-align: center;
+    color: white;
+}
+.subscribe h1{
+    display: inline-block;
+    /* padding-top: 50px; */
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+.subscribe button{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #7140EB;
+}
+.move{
+    width: 100%;
+    height: 1000px;
+    color: white;
+    background-size: cover;
+    background-image: url(../rasm/11.png);
+    background-repeat: no-repeat;
+}
+.move h1{
+    display: inline;
+    margin-left: 750px;
+    margin-top: 100px;
+    letter-spacing: 10px;
+    font-size: 70px;
+}
+.move p{
+    margin-left: 900px;
+    font-size: 30px;
+}
+.velasiped{
+    background-color: rgba(251, 247, 243, 1);
+}
+.boxone{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxone .ride{
+    /* margin-left: 300px; */
+    margin-top: 100px;
+    /* text-align: center; */
+}
+.boxone .read img{
+    height: 600px;
+    /* margin-left: 40px; */
+}
+.boxone .subscib{
+    /* margin-left: 40px; */
+    margin-top: 200px;
+}
+.boxone .subscib .doyra{
+    display: flex;
+}
+.boxone .subscib .doyra .aylana{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7140EB;
+}
+.boxone .subscib .doyra .mon{
+    margin-top: -15px;
+    margin-left: 10px;
+    color: #7140EB;
+}
+.boxtwo{
+text-align: center;
+}
+.jixozlar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tel img{
+width: 100%;
+height: 100vh;    
+}
+.insta{
+    margin-left: 150px;
+}
+.tellopon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.join{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #F7F0EA;
+}
+.thetwo{
+    margin-top: 150px;
+}
+@media (mix-width: 768px){
+    .nawbar h1{
+        color: white;
+    }
+}
